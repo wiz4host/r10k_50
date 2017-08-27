@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-# a gem from the "default gems"
-gem list | grep ^rdoc
-
-# a system gem, installed by this test dependencies
-gem list | grep ^ffi
